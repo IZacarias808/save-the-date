@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    color: maroon;
+    font-size: 225%;
+    font-family: 'Notable', sans-serif;
+}
+
+#days-of-week {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Notable', sans-serif;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#day-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.row {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.day {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 75px;
+    border: solid 10px black;
+    background-color: maroon;
+    color: white;
+    font-size: 150%;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#lastRow {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.last {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 75px;
+    border: solid 10px black;
+    background-color: maroon;
+    color: white;
+    font-size: 150%;
+    text-decoration: underline;
+    text-decoration-color: white;
+    justify-content: center;
+}
+
+#year {
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 200%;
+    font-family: 'Notable', sans-serif;
+}
+
+#newYear {
+    color: #fff;
+    animation: rainbow 3s infinite;
+    font-size: 175%;
+    justify-content: center;
+}
+
+@keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+      20%{color: red;}
+      40%{color: yellow;}
+      60%{color: green;}
+      100%{color: blue;}
+      100%{color: orange;}
+  }
